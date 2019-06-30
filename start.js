@@ -6,6 +6,9 @@ require('dotenv').config();
 // TEST ENVS
 require('./envValidate');
 
+// SET GLOBALS
+global.app_root = __dirname;
+
 // REQUIRE LIBS
 const http = require('http');
 
